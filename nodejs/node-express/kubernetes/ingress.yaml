@@ -6,7 +6,7 @@ metadata:
     app: nodejs-api-selector
 spec:
   rules:
-    - host: nodejs-api.$DOMAIN
+    - host: nodejs.$DOMAIN
       http:
         paths:
           - path: /
